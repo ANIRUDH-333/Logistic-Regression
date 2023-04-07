@@ -28,10 +28,12 @@ The logistic regression model can be represented mathematically as:
 $$ P(y=1|x_1,x_2,...,x_n) = \frac{1}{1+e^{-z}} $$
 
 where, \
-$P(y=1|x_1,x_2,...,x_n)$ is the probability that the dependent variable (y) is 1 given the values of the independent variables (x1, x2,...,xn) \
+$P(y=1|x_1,x_2,...,x_n)$ is the probability that the dependent variable $(y)$ is 1 given the values of the independent variables $(x_1, x_2,...,x_n)$ \
 $z$ is the linear combination of the independent variables and their coefficients, given by:
+
 $$ z = b_0 + b_1x_1 + b_2x_2 + ... + b_nx_n $$
-$ b_1 - b_n $ are the weights given to the input features $ x_1 - x_n $ respectively. $b_0$ is the intercept.
+
+$(b_1 - b_n)$ are the weights given to the input features $(x_1 - x_n)$ respectively. $b_0$ is the intercept.
 
 We see that everything is similar except giving the output to sigmoid function to compute the probability and classify.
 
@@ -51,7 +53,7 @@ $\boldsymbol{b}$ is the vector of coefficients for the independent variables \
 $y_{i}$ is the true label for the $i$-th training example \
 $\hat{y}_{i}$ is the predicted probability for the $i$-th training example 
 
-The first term in the cost function measures the error when the true label is 1, and the second term measures the error when the true label is 0. When the predicted probability $\hat{y}_{i}$ is close to the true label $y_{i}$, the cost function will be small. However, when the predicted probability is far from the true label, the cost function will be large.
+The first term in the cost function measures the error when the true label is 1, and the second term measures the error when the true label is 0. When the predicted probability $\hat{y_i}$  is close to the true label $y_i$, the cost function will be small. However, when the predicted probability is far from the true label, the cost function will be large.
 
 The goal of logistic regression is to find the set of coefficients $\boldsymbol{b}$ that minimize the cost function $J(\boldsymbol{b})$. We do this using optimization techniques such as gradient descent which was explained in Linear Regression.
 
@@ -65,6 +67,7 @@ As discussed in the model representation, sigmoid function is as follows:
 $$ \sigma(z) = \frac{1}{1+e^{-z}} $$
 
 where $z$ is a linear combination of the independent variables and their coefficients:
+
 $$ z = b_0 + b_1x_1 + b_2x_2 + ... + b_nx_n $$
 
 The sigmoid function takes the input value $z$ and maps it to a value between 0 and 1, which represents the probability that the dependent variable is 1 given the values of the independent variables. When $z$ is positive, the sigmoid function outputs a value closer to 1, and when $z$ is negative, the sigmoid function outputs a value closer to 0.
