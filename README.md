@@ -80,3 +80,6 @@ Following is a visualization graph for sigmoid function.
 
 ### Purpose of this repo
 Have answered all these [questions](https://github.com/ANIRUDH-333/Logistic-Regression/blob/main/questions.pdf)
+
+### Contribute
+I would be happy to resolve any queries related to this and open to any additions or changes in the repo.
