@@ -72,4 +72,5 @@ The sigmoid function takes the input value $z$ and maps it to a value between 0 
 The sigmoid function has an S-shaped curve, which allows it to model nonlinear relationships between the independent variables and the dependent variable. In logistic regression, the goal is to find the set of coefficients $\beta_0, \beta_1, \beta_2, \cdots, \beta_n$ that maximize the likelihood of the observed data. The sigmoid function is used to compute the predicted probabilities, which are then compared to the true labels to compute the likelihood of the observed data.
 
 Following is a visualization graph for sigmoid function.
+[Sigmoid.png])(https://github.com/ANIRUDH-333/Logistic-Regression/blob/main/sigmoid.png)
 
