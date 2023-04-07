@@ -1,6 +1,6 @@
+Have answered all these [questions](https://github.com/ANIRUDH-333/Logistic-Regression/blob/main/questions.pdf)
+
 # Logistic Regression
-
-
 Have implemented the logistic regression for all the 3 types.
 
 ## Binary
@@ -77,9 +77,6 @@ The sigmoid function has an S-shaped curve, which allows it to model nonlinear r
 Following is a visualization graph for sigmoid function.
 ![alt text](https://github.com/ANIRUDH-333/Logistic-Regression/blob/main/sigmoid.png?raw=true)
 
-
-### Purpose of this repo
-Have answered all these [questions](https://github.com/ANIRUDH-333/Logistic-Regression/blob/main/questions.pdf)
 
 ### Contribute
 I would be happy to resolve any queries related to this and open to any additions or changes in the repo.
